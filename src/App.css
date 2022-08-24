@@ -1,0 +1,28 @@
+nav {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(30, 117, 199);
+}
+
+.logo, .nav-items li a {
+    color: white;
+}
+
+.nav-items {
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-items li, .logo {
+    float: left;
+    padding: 16px;
+}
+
+.nav-items li a {
+    text-decoration: none;
+}
+
+
+
