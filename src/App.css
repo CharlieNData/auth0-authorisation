@@ -8,6 +8,23 @@ body {
     padding: 2rem;
 }
 
+.app-container, .profile-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-container {
+    margin-bottom: 1rem;
+}
+
+.profile-container h2,
+.profile-container p,
+.profile-container img {
+    margin-bottom: 1rem;
+}
+
 button {
     width: 200px;
     padding: 1rem 2rem;
@@ -16,4 +33,16 @@ button {
     background-color: rgb(86, 135, 214);
     color: white;
     font-size: 16px;
+}
+
+button:first-child {
+    margin-right: 0.5rem;
+}
+
+button:last-child {
+    margin-left: 0.5rem;
+}
+
+img {
+    width: 120px;
 }
